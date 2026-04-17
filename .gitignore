@@ -1,0 +1,39 @@
+# Scala/SBT specific
+*.class
+*.log
+target/
+project/target/
+project/project/
+
+# IDE specific
+.idea/
+.idea_modules/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.metals/
+.bsp/
+.bloop/
+metals.sbt
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Build tool
+.cache
+.history
+.lib/
+dist/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Temporary files
+*.tmp
+*.bak
